@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 15vh;
+    width: 100%;
+    background-color: #FB577C;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #F5D321;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.homePage {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/homePage.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.owowHome img {
+    height: 200px;
+    width: 300px;
+}
+
+.lowerHomeCover {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/wave.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*---- About ----*/
+
+.About {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    background: #FFC4D0;
+    padding: 2% 6%;
+
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.moreButton {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px 20px;
+    font-size: 13px;
+    background: #D63A2C;
+    position: relative;
+    cursor: pointer;
+}
+
+.moreButton:hover {
+    border: 3px solid #D63A2C;
+    background: #fff;
+    color: #D63A2C;
+    transition: 1s;
+}
+
+.Teams {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 2% 6%;
+    background: #FB577C;
+}
+
+.upTeams {
+    padding: 5px 80px;
+}
+
+.sweetButton {
+    text-decoration: none;
+    background: #8F558D;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.sweetButton:hover {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #8F558D;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #8F558D;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cheesyButton {
+    text-decoration: none;
+    background: #F79E2A;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.cheesyButton:hover {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #F79E2A;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #F79E2A;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.downTeams {
+    padding: 5px 80px;
+}
+
+.anghangButton {
+    text-decoration: none;
+    background: #D63A2C;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.anghangButton:hover {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #D63A2C;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #D63A2C;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.cornyButton {
+    text-decoration: none;
+    background: #89A44B;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.cornyButton:hover {
+    text-decoration: none;
+    background: #fff;
+    border: 2px solid #89A44B;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #89A44B;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Lower {
+    background: #FFC4D0;
+}
+
+.lowerImage img {
+    width: 100%;
+    height: 220px;
+}
